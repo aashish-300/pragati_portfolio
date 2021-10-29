@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <header class=header>
+        <div class="logo_box">
+            <h1 class="logo"></h1>
+        </div>
+        <div class="tab">
+            <!--This links one page with other four pages-->
+            <a href="./home.html" class="link"><h1 class="home">Home</h1></a>
+            <a href="blog.html" class="link"><h1 class="blog">Blog</h1></a>
+            <a href="research.html" class="link"><h1 class="research">Research</h1></a>
+            <a href="./cv.html" class="link"><h1 class="cv">CV</h1></a>
+            <a href="./form.html" class="link"><h1 class="form_link">Form</h1></a>
+        </div>
+    </header>
+    <!--container box for form-->
+    <div class="container">
+        <div class="back_image">
+            <!-- insert image-->
+            <img src="./image/plant.jpg" alt="image" class="plant">
+            <div class="blur"></div>
+        </div>
+        <div class="book">
+            <div class="book_form">
+                <form action="#" class="form">
+                    <div class="header-form">
+                        <!-- This is First heading-->
+                        <h2 class="header-secondary">registration form</h2>
+                    </div>
+                    <div class="form_group">
+                        <!-- input fullname while filling form-->
+                        <input type="text" class="form_input" placeholder="Full Name" required>
+                    </div>
+                    <div class="form_group">
+                        <input type="text" class="form_input" placeholder="Email Address" required>
+                    </div>
+                    <div class="form_group">
+                        <button class="btn">Next Step &rarr;</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="formValidation.js"></script>
+</body>
+</html>

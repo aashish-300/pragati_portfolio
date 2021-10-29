@@ -1,0 +1,130 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+
+body{
+    background-color: rgb(85,94,193);
+    /* display: grid;
+    justify-content: center;
+    align-items: center; */
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    /* margin:0px 5rem 0px 20px; */
+    padding-right: 5rem;
+}
+
+.tab{
+    display:flex;
+    color:#191919;
+    opacity: 0.7;
+}
+
+.link:link,
+.link:visited{
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-decoration:none;
+    color:white;
+    opacity:0.9;
+    padding:0px 1.2rem;
+    letter-spacing:0.5px;
+    font-family: sans-serif;
+    font-weight:100px;
+    padding: 1rem 1.5rem;
+}
+
+.link:hover{
+    background-color:#d3d3d3;
+    /* color:#3C7731; */
+    color: white;
+}
+
+
+.blog_title{
+    font-size: 85px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.subtitle{
+    font-size: 30px;
+    text-align: center;
+    color: black;   
+    padding-bottom: 5rem;
+}
+
+.container {
+    width:  100rem;
+    /* height: 1300px; */
+    /* border: 5px solid rgba(0, 0, 0, 1); */
+    padding: 3rem;
+    margin: 0px auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+}
+.box{
+      border:1px solid rgba(0,0,0,0.5);
+      padding: 10rem;      
+}
+
+.personal_info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.image_box{
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+.avatar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+    transform: scale(1.3);
+}
+
+.date{
+    margin-left: 1rem;
+}
+
+.title1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
